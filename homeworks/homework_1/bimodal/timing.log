@@ -1,0 +1,62 @@
+Trace Simulation Timing Log
+---------------------------
+[2025-05-02 23:14:04] Starting simulation for: 600.perlbench_s-1273B
+[2025-05-02 23:19:00] Finished simulation for: 600.perlbench_s-1273B
+----------------------------------------
+[2025-05-02 23:19:00] Starting simulation for: 602.gcc_s-1850B
+[2025-05-02 23:40:40] Finished simulation for: 602.gcc_s-1850B
+----------------------------------------
+[2025-05-02 23:40:40] Starting simulation for: 603.bwaves_s-2931B
+[2025-05-02 23:50:38] Finished simulation for: 603.bwaves_s-2931B
+----------------------------------------
+[2025-05-02 23:50:38] Starting simulation for: 605.mcf_s-1536B
+[2025-05-03 00:42:35] Finished simulation for: 605.mcf_s-1536B
+----------------------------------------
+[2025-05-03 00:42:35] Starting simulation for: 607.cactuBSSN_s-2421B
+[2025-05-03 00:50:34] Finished simulation for: 607.cactuBSSN_s-2421B
+----------------------------------------
+[2025-05-03 00:50:34] Starting simulation for: 619.lbm_s-2676B
+[2025-05-03 01:13:16] Finished simulation for: 619.lbm_s-2676B
+----------------------------------------
+[2025-05-03 01:13:16] Starting simulation for: 620.omnetpp_s-141B
+[2025-05-03 01:34:07] Finished simulation for: 620.omnetpp_s-141B
+----------------------------------------
+[2025-05-03 01:34:07] Starting simulation for: 621.wrf_s-575B
+[2025-05-03 01:40:31] Finished simulation for: 621.wrf_s-575B
+----------------------------------------
+[2025-05-03 01:40:31] Starting simulation for: 623.xalancbmk_s-165B
+[2025-05-03 01:52:18] Finished simulation for: 623.xalancbmk_s-165B
+----------------------------------------
+[2025-05-03 01:52:18] Starting simulation for: 625.x264_s-12B
+[2025-05-03 01:56:41] Finished simulation for: 625.x264_s-12B
+----------------------------------------
+[2025-05-03 01:56:41] Starting simulation for: 627.cam4_s-490B
+[2025-05-03 02:05:00] Finished simulation for: 627.cam4_s-490B
+----------------------------------------
+[2025-05-03 02:05:00] Starting simulation for: 628.pop2_s-17B
+[2025-05-03 02:12:05] Finished simulation for: 628.pop2_s-17B
+----------------------------------------
+[2025-05-03 02:12:05] Starting simulation for: 631.deepsjeng_s-928B
+[2025-05-03 02:19:32] Finished simulation for: 631.deepsjeng_s-928B
+----------------------------------------
+[2025-05-03 02:19:32] Starting simulation for: 638.imagick_s-10316B
+[2025-05-03 02:23:30] Finished simulation for: 638.imagick_s-10316B
+----------------------------------------
+[2025-05-03 02:23:30] Starting simulation for: 641.leela_s-149B
+[2025-05-03 02:31:04] Finished simulation for: 641.leela_s-149B
+----------------------------------------
+[2025-05-03 02:31:04] Starting simulation for: 644.nab_s-12459B
+[2025-05-03 02:36:43] Finished simulation for: 644.nab_s-12459B
+----------------------------------------
+[2025-05-03 02:36:43] Starting simulation for: 648.exchange2_s-387B
+[2025-05-03 02:42:44] Finished simulation for: 648.exchange2_s-387B
+----------------------------------------
+[2025-05-03 02:42:44] Starting simulation for: 649.fotonik3d_s-1176B
+[2025-05-03 03:07:54] Finished simulation for: 649.fotonik3d_s-1176B
+----------------------------------------
+[2025-05-03 03:07:54] Starting simulation for: 654.roms_s-293B
+[2025-05-03 03:18:11] Finished simulation for: 654.roms_s-293B
+----------------------------------------
+[2025-05-03 03:18:11] Starting simulation for: 657.xz_s-4994B
+[2025-05-03 03:23:30] Finished simulation for: 657.xz_s-4994B
+----------------------------------------
