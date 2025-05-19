@@ -7,7 +7,7 @@ mru::mru(CACHE* cache)
   : replacement(cache),
     NUM_SET(cache->NUM_SET),
     NUM_WAY(cache->NUM_WAY),
-    last_used_cycles(static_cast<std::size_t>(NUM_SET * NUM_WAY), 0),
+    last_used_cycles(static_cast<std::uint64_t>(NUM_SET * NUM_WAY), 0),
     cycle(0)
 {}
 

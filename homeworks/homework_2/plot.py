@@ -9,11 +9,11 @@ df.columns = df.columns.str.strip()
 df["Trace"] = df["Trace"].str.replace(".txt", "", regex=False)
 df = df.sort_values("Trace")
 
-scale = 4
+scale = 2
 plt.figure(figsize=(15, 15))
 plt.plot(df["Trace"], df["MISS_RATE_DRRIP"], label="DRRIP", marker='o', markersize=scale)
-#plt.plot(df["Trace"], df["MISS_RATE_LRU"], label="LRU", marker='o', markersize=scale)
-#plt.plot(df["Trace"], df["MISS_RATE_MRU"], label="MRU", marker='o', markersize=scale)
+plt.plot(df["Trace"], df["MISS_RATE_LRU"], label="LRU", marker='o', markersize=scale)
+plt.plot(df["Trace"], df["MISS_RATE_MRU"], label="MRU", marker='o', markersize=scale)
 plt.plot(df["Trace"], df["MISS_RATE_PLRU"], label="PLRU", marker='o', markersize=scale)
 
 
@@ -24,4 +24,4 @@ plt.legend()
 plt.grid(True)
 plt.xticks(rotation=90)
 plt.tight_layout()
-plt.savefig("/home/karina/prog/ChampSim/homeworks/homework_2/Figure_drrip_and_plru.png", dpi=300)
+plt.savefig("/home/karina/prog/ChampSim/homeworks/homework_2/Figure_all.png", dpi=300)

@@ -2,7 +2,7 @@
 
 TRACE_DIR="/home/karina/prog/ChampSim/homeworks/benchmarks"
 
-RESULT_DIR="/home/karina/prog/ChampSim/homeworks/homework_2/plru"
+RESULT_DIR="/home/karina/prog/ChampSim/homeworks/homework_2/mru"
 mkdir -p "$RESULT_DIR"
 
 TIMING_LOG="$RESULT_DIR/timing.log"
