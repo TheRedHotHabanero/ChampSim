@@ -35,4 +35,4 @@ def main(logs_dir):
     df.to_csv("l2_cache_miss_summary.csv", index=False)
 
 if __name__ == "__main__":
-    main("/home/karina/prog/ChampSim/homeworks/homework_2/mru")
+    main("/home/karina/prog/ChampSim/homeworks/homework_2/plru")

@@ -9,8 +9,8 @@ df.columns = df.columns.str.strip()
 df["Trace"] = df["Trace"].str.replace(".txt", "", regex=False)
 df = df.sort_values("Trace")
 
-scale = 2
-plt.figure(figsize=(15, 15))
+scale = 3
+plt.figure(figsize=(17, 12))
 plt.plot(df["Trace"], df["MISS_RATE_DRRIP"], label="DRRIP", marker='o', markersize=scale)
 plt.plot(df["Trace"], df["MISS_RATE_LRU"], label="LRU", marker='o', markersize=scale)
 plt.plot(df["Trace"], df["MISS_RATE_MRU"], label="MRU", marker='o', markersize=scale)
