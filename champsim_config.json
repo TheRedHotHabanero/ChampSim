@@ -157,7 +157,7 @@
         "virtual_prefetch": false,
         "prefetch_activate": "LOAD,PREFETCH",
         "prefetcher": "no",
-        "replacement": "plru"
+        "replacement": "mru"
     },
 
     "physical_memory": {
